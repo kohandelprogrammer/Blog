@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('../../public//font/Lora-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../../public/font/VarelaRound-Regular.ttf');
+}
+
+
+
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: 'Lora';
+
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 25px;
+}
+
+.singlePostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+    color: teal;
+}
+
+.singlePostIcon:last-child {
+    color: tomato;
+}
+
+.singlePostInfo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39556;
+    font-family: 'VarelaRound';
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 32px;
+
+}

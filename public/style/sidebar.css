@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'JosenfinSans';
+    src: url('../font/JosefinSans-Regular.ttf');
+}
+
+
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding: 30px;
+    background-color: #f1fbfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: "JosenfinSans";
+    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarItem img {
+    margin-top: 15px;
+}
+
+
+.sidebarList {
+    list-style: none;
+}
+
+.sidebarListItem {
+    display: inline-block;
+    width: 130px;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebarSocial {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    width: 250px;
+}
+
+.sidebaricons {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
