@@ -5,7 +5,6 @@ import Instagram from '../../public/icons/Instagram'
 import Search from '../../public/icons/Search'
 
 import '../../public/style/topbar.css'
-import { Link } from 'react-router-dom'
 
 function TopBar() {
     return (
