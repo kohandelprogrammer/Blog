@@ -1,5 +1,3 @@
-import React from 'react'
-
 import FaceBook from '../../public/icons/FaceBook'
 import Twitter from '../../public/icons/Twitter'
 import Pinterest from '../../public/icons/Pinterest'
@@ -7,6 +5,7 @@ import Instagram from '../../public/icons/Instagram'
 import Search from '../../public/icons/Search'
 
 import '../../public/style/topbar.css'
+import { Link } from 'react-router-dom'
 
 function TopBar() {
     return (
@@ -20,11 +19,21 @@ function TopBar() {
 
             <div className='topCenter'>
                 <ul className="topList">
-                    <li className='topListItem'>HOME</li>
-                    <li className='topListItem'>ABOUT</li>
-                    <li className='topListItem'>CONTACT</li>
-                    <li className='topListItem'>WRITE</li>
-                    <li className='topListItem'>LOGIN</li>
+                    <li className='topListItem'>
+                        <a href="/">Home</a>
+                    </li>
+                    <li className='topListItem'>
+                        <a href="/setting">ABOUT</a>
+                    </li>
+                    <li className='topListItem'>
+                        <a href="/single">CONTACT</a>
+                    </li>
+                    <li className='topListItem'>
+                        <a href="/write">WRITE</a>
+                    </li>
+                    <li className='topListItem'>
+                        <a href="/login">LOGIN</a>
+                    </li>
                 </ul>
             </div>
 
